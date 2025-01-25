@@ -72,7 +72,7 @@ void ABingle_GGJ2025Character::NotifyControllerChanged()
 }
 
 void ABingle_GGJ2025Character::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
+{ 
 	// Set up action bindings
 	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent)) {
 		
